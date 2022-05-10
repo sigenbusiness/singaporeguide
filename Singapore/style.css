@@ -1,0 +1,234 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+/*--------------------*/
+
+
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+section {
+	padding-top: 144px;
+}
+
+
+
+
+/*----header------*/
+
+.header {
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 1.39%, rgba(255, 126, 54, 0.24) 44.44%), url(/Singapore/img/header-background.jpg) no-repeat center top / cover ;
+	text-align: center;
+	padding-bottom: 323px;
+}
+.header__logo {
+	padding-top: 90px;
+	margin-bottom: 201px;
+	display: block;
+}
+.header__text {
+	color: #000000;
+	text-align: center;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	font-weight: 800;
+	text-transform: uppercase;
+	background: #FFFFFF;
+	border-radius: 78px;
+	padding: 8px 0;
+	width: 276px;
+	margin: 0 auto;
+}
+.header__title {
+text-transform: uppercase;
+font-weight: 800;
+font-size: 60px;
+letter-spacing: 0.145em;
+color: #fff;
+margin-top: 24px;
+margin-bottom: 24px;
+}
+.header__offer {
+	font-weight: 500;
+	font-size: 20px;
+	letter-spacing: 0.05em;
+	color: #fff;
+	margin-bottom: 24px;
+}
+.header__button {
+	background:rgba(255, 126, 54, 1);
+	border-radius: 119px;
+	display: block;
+	color: #fff;
+	width: 247px;
+	letter-spacing: 0.05em;
+	font-weight: 800;
+	font-size: 16px;
+	padding: 18px 0;
+	margin-bottom: 323px;
+	margin: 0 auto;
+	transition: all 0.5s ease;
+}
+.header__button:hover {
+	background:#CC4900;
+
+}
+
+
+/*-----routes-------*/
+
+
+.routes__title {
+	color: #304041;
+	font-weight: 800;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	margin-bottom: 100px;
+}
+
+.routes__content {
+	background: #EAF4F7 url(img/Singapore-1.jpg) no-repeat right top / 50%;
+	padding-top: 121px;
+	padding-bottom: 112px;
+	padding-left: 40px;
+}
+.routes__subtitle {
+	font-weight: 800;
+	font-size: 24px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #304041;
+	margin-bottom: 40px;
+}
+.routes__text {
+	width: 521px;
+	letter-spacing: 0.05em;
+	color: #304041;
+	font-weight: 500;
+	margin-bottom: 25px;
+
+}
+.routes__arrow {
+	width: 68px;
+	height: 17px;
+	opacity: 0.6;
+	transition: all 0.5s ease;
+}
+.routes__arrow:hover {
+	opacity: 1;
+}
+.routes__button {
+	border: 1px solid #FF7E36;
+	border-radius: 94px;
+	padding: 18px 0;
+	text-align: center;
+	letter-spacing: 0.05em;
+	display: block;
+	font-weight: 800;
+	font-size: 16px;
+	color: #FF7E36;
+	margin: 0 auto;
+	width: 332px;
+	margin-top: 90px;
+	transition: all 0.5s ease;
+}
+.routes__button:hover {
+	background-color: #CC4900;
+	color: #fff;
+}
+
+
+
+/*-------opportunities------*/
+
+
+
+
+.opportunities__title {
+	font-weight: 800;
+	font-size: 30px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #304041;
+	text-align: center;
+	margin-bottom: 93px;
+
+}
+.opportunities__content {
+	background: #fff url(img/Singapore-2.jpg) no-repeat right top / 50%;
+	height: 626px;
+}
+.opportunities-content__list {
+	padding-top: 125px;
+}
+.opportunities-content__item {
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 0.05em;
+	color: #304041;
+	width: 407px;
+}
+
+.opportunities-content__item::before {
+	content: '';
+	display: block;
+	background: #4EB1B6;
+	border-radius: 23px;
+	width: 7px;
+	height: 64px;
+	transform: rotate(90deg);
+	margin-left: 27px;
+}
+
+
+/*----footer------*/
+
+.footer__content {
+	display: flex;
+	margin: 147px 0;
+}
+.footer__text {
+	color: #5C7677;
+	font-weight: 500;
+	font-size: 14px;
+	letter-spacing: 0.05em;
+	margin-right: 72px;
+}
